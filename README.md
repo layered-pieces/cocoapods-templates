@@ -1,6 +1,6 @@
 # cocoapods-templates
 
-A description of cocoapods-templates.
+Cocoapods plugin to install Xcode templates from a remote source.
 
 ## Installation
 
@@ -8,4 +8,4 @@ A description of cocoapods-templates.
 
 ## Usage
 
-    $ pod spec templates POD_NAME
+    $ pod templates https://github.com/objc-pieces/pieces.git
