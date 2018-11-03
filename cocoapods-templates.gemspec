@@ -8,15 +8,17 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsTemplates::VERSION
   spec.authors       = ['Oliver Letterer']
   spec.email         = ['oliver.letterer@gmail.com']
-  spec.description   = %q{A short description of cocoapods-templates.}
-  spec.summary       = %q{A longer description of cocoapods-templates.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-templates'
+  spec.description   = %q{Cocoapods plugin to install Xcode templates from a remote source}
+  spec.summary       = %q{Cocoapods plugin to install Xcode templates from a remote source}
+  spec.homepage      = 'https://github.com/objc-pieces/cocoapods-templates'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
+
+  spec.add_dependency 'git', '~> 1.5'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
