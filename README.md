@@ -8,4 +8,4 @@ Cocoapods plugin to install Xcode templates from a remote source.
 
 ## Usage
 
-    $ pod templates https://github.com/objc-pieces/pieces.git
+    $ pod templates https://github.com/layered-pieces/objc-pieces.git
